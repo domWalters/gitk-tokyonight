@@ -12,22 +12,18 @@ git clone https://github.com/domwalters/gitk-tokyonight "$HOME/.config/git"
 
 ## Issues
 
-`gitk` is quite an old piece of software. As such, it doesn't expose all the
-customisation options needed to get the theme fully aligned with other
-implementations of tokyonight.
+`gitk` doesn't have all the options to fully align with other versions of this
+theme.
 
-Notably:
+Notably, the following aspects of the UI aren't configurable:
 
-- [The foreground and background colours of text that has been matched using the
-  search feature cannot be changed.](https://github.com/dracula/gitk/issues/14)
-    - This can result in the text being quite hard to read.
-- Panel outlines cannot be changed from the default light grey.
+- [The colours of search terms](https://github.com/dracula/gitk/issues/14)
+- Panel outlines
 
 ## Troubleshooting
 
-- If you encounter issues with the responsiveness of the UI, the colours of the
-  bars between panels, or errors related to resizing, try change the value of
-  `want_ttk` to `1`.
+- If you have issues with resizing the UI, or the colours of the bars between
+  panels, try to change the value of `want_ttk` to `1`.
     - [Related issue on the Dracula theme](https://github.com/dracula/gitk/issues/11)
 
 ## Inspiration
