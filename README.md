@@ -15,7 +15,7 @@ git clone https://github.com/domwalters/gitk-tokyonight "$HOME/.config/git"
 `gitk` doesn't have all the options to fully align with other versions of this
 theme.
 
-Notably, the following aspects of the UI aren't configurable:
+Notably, the following aspects of the UI remain non-configurable:
 
 - [The colours of search terms](https://github.com/dracula/gitk/issues/14)
 - Panel outlines
